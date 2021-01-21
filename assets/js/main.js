@@ -5,7 +5,9 @@ $(document).ready(function () {
 
   $(".navbar li").click(function () {
     $(this).addClass("active").siblings().removeClass("active");
+
   });
+
 
 
   if ($(".show-application")) {
