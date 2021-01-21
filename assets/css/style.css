@@ -4,6 +4,11 @@
   font-family: myFont;
   src: url("../fonts/DINNextLTArabic-Regular.ttf");
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
 input:focus,
 select:focus,
 textarea:focus,
@@ -42,6 +47,11 @@ body {
 .navbar .navbar-nav li a {
   color: #fff;
 }
+
+.navbar .navbar-nav li a:hover{
+  color: #fff;
+}
+
 .navbar .navbar-nav .active a {
   background-color: #ffdd00;
   color: #562816;

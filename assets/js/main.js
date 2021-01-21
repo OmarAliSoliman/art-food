@@ -3,6 +3,10 @@ $(document).ready(function () {
 
   AOS.init();
 
+  $(".navbar li").click(function () {
+    $(this).addClass("active").siblings().removeClass("active");
+  });
+
 
   if ($(".show-application")) {
     $(" .show-application .owl-carousel").owlCarousel({
